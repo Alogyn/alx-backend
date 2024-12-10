@@ -79,7 +79,7 @@ class 'tuple'>
 30, 45)
 ``
 ## Simple Pagination
-``bash
+```bash
  ./1-main.py
 ssertionError raised with negative values
 ssertionError raised with 0
