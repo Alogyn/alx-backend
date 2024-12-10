@@ -38,7 +38,7 @@ This project focuses on implementing various pagination methods for large datase
  res = index_range(1, 7)
  print(res)  # (0, 7)
  ```
---
+
 ## Task 1: Simple Pagination
  **File**: `1-simple_pagination.py`
  Implement a `Server` class to paginate the dataset using `index_range`.
@@ -48,6 +48,7 @@ This project focuses on implementing various pagination methods for large datase
  server = Server()
  print(server.get_page(1, 3))
  ```
+
 ## Task 2: Hypermedia Pagination
  **File**: `2-hypermedia_pagination.py`
  Extend the `Server` class with a `get_hyper` method.
@@ -57,7 +58,7 @@ This project focuses on implementing various pagination methods for large datase
  server = Server()
  print(server.get_hyper(1, 2))
  ```
---
+
 ## Task 3: Deletion-Resilient Pagination
  **File**: `3-hypermedia_del_pagination.py`
  Implement `get_hyper_index` to ensure continuity after data deletions.
@@ -67,7 +68,7 @@ This project focuses on implementing various pagination methods for large datase
  server = Server()
  print(server.get_hyper_index(3, 2))
  ```
---
+
 # 🧾 Example Outputs
 ## Simple Helper Function
 ``bash
