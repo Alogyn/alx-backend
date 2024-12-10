@@ -80,7 +80,7 @@ class 'tuple'>
 ``
 ## Simple Pagination
 ```bash
- ./1-main.py
+$ ./1-main.py
 ssertionError raised with negative values
 ssertionError raised with 0
 ssertionError raised when page and/or page_size are not ints
